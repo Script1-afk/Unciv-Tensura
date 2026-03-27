@@ -7,7 +7,7 @@
     "strength": 14,
     "cost": 75,
     "requiredResource": "Magicules",
-    "uniques": ["Ignorer le coût de mouvement du terrain", "+10% de force en forêt et jungle"],
+    "uniques": ["Ignore terrain cost", "[+10]% Strength <in [Forest] tiles>", "[+10]% Strength <in [Jungle] tiles>"],
     "promotions": ["Éclaireur des Ombres"]
   },
   {
@@ -18,7 +18,7 @@
     "strength": 18,
     "cost": 85,
     "requiredResource": "Acier Magique",
-    "uniques": ["Peut attaquer deux fois par tour", "Inflige +20% de dégâts contre les unités de mêlée"],
+    "uniques": ["Can attack [2] times per turn", "[+20]% Strength <vs [Melee] units>"],
     "promotions": ["Maîtrise de l'Épée"]
   },
   {
@@ -28,7 +28,7 @@
     "movement": 2,
     "strength": 25,
     "cost": 120,
-    "uniques": ["Bonus de combat de 25% contre les monstres", "Génère de la Foi après chaque combat"],
+    "uniques": ["[+25]% Strength <vs [Monster] units>", "Earn [50]% of killed Unit's [Strength] as [Faith]"],
     "promotions": ["Lumière Purificatrice"]
   },
   {
@@ -38,7 +38,7 @@
     "movement": 2,
     "strength": 12,
     "cost": 56,
-    "uniques": ["+15% de force de défense", "Ignore les pénalités de combat en colline"]
+    "uniques": ["[+15]% Strength <when defending>", "Ignore terrain cost <in [Hills] tiles>"]
   },
   {
     "name": "Veldora",
@@ -47,6 +47,6 @@
     "strength": 100,
     "cost": 500,
     "requiredResource": "Cœur de Dragon",
-    "uniques": ["Unité unique", "Peut capturer des villes", "Volant", "Attaque à distance", "Rayon de destruction"]
+    "uniques": ["Limited to [1] per Civilization", "Can capture cities", "All tiles cost 1 movement", "Ranged", "May attack after moving", "No defensive bonuses"]
   }
 ]

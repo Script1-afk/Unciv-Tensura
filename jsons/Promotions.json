@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Éclaireur des Ombres",
+    "uniques": ["Ignore terrain cost", "Can move after attacking"],
+    "unitTypes": ["Mounted"]
+  },
+  {
+    "name": "Maîtrise de l'Épée",
+    "uniques": ["[+25]% Strength <when attacking>", "[+15]% Strength <when defending>"],
+    "unitTypes": ["Melee"]
+  },
+  {
+    "name": "Lumière Purificatrice",
+    "uniques": ["[+33]% Strength <vs [Monster] units>", "Earn [25]% of killed Unit's [Strength] as [Faith]"],
+    "unitTypes": ["Melee"]
+  },
+  {
+    "name": "Protection du Dragon",
+    "uniques": ["[+15]% Strength", "Heals [10] HP every turn"],
+    "unitTypes": ["Melee", "Mounted", "Siege", "Archery"]
+  }
+]

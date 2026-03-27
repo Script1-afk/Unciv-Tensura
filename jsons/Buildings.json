@@ -3,28 +3,28 @@
     "name": "Forge de Kurobe",
     "replaces": "Forge",
     "cost": 120,
-    "uniques": ["+15% de production pour les unités de mêlée", "+1 Production par mine de fer", "+2 Production par mine d'Acier Magique"],
+    "uniques": ["[+15]% Production <for [Melee] units>", "[+1] Production from [Iron] tiles", "[+2] Production from [Acier Magique] tiles"],
     "requiredResource": "Acier Magique"
   },
   {
     "name": "Temple de Luminous",
     "replaces": "Temple",
     "cost": 100,
-    "uniques": ["+2 Foi", "+1 Culture", "+10% de Foi générée dans la ville"],
+    "uniques": ["[+2] Faith", "[+1] Culture", "[+10]% Faith in this city"],
     "requiredTech": "Philosophy"
   },
   {
     "name": "Atelier d'Armurerie",
     "replaces": "Armory",
     "cost": 160,
-    "uniques": ["+15 Expérience pour toutes les unités terrestres", "+2 Production"],
+    "uniques": ["New [Land] units start with [+15] Experience", "[+2] Production"],
     "requiredTech": "Steel"
   },
   {
     "name": "Grotte de Veldora",
     "isWonder": true,
     "cost": 300,
-    "uniques": ["+5 Foi", "+5 Science", "Génère 1 ressource de Cœur de Dragon", "Toutes les unités de la ville reçoivent la promotion 'Protection du Dragon'"],
+    "uniques": ["[+5] Faith", "[+5] Science", "Provides [1] [Cœur de Dragon]", "New [Land] units in this city start with the [Protection du Dragon] promotion"],
     "requiredTech": "Theology"
   }
 ]
