@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Fédération de Jura Tempest",
+    "adjective": "Tempestien",
+    "leaderName": "Rimuru Tempest",
+    "color": [0, 206, 209],
+    "outerColor": [0, 128, 128],
+    "uniqueName": "Harmonie des Monstres",
+    "uniqueText": "Toutes les unités de monstres reçoivent +15% de force de combat. Les villes génèrent +2 de culture par citoyen.",
+    "startBias": ["Forest", "Jungle"],
+    "favoredReligion": "Grand Sage",
+    "cities": ["Rimuru", "Village des Gobelins", "Cité des Monstres", "Veldora", "Jura"],
+    "units": ["Loup-Tempête", "Kijin"],
+    "buildings": ["Forge de Kurobe"]
+  },
+  {
+    "name": "Royaume des Nains de Dwargon",
+    "adjective": "Dwargonien",
+    "leaderName": "Gazel Dwargo",
+    "color": [160, 82, 45],
+    "outerColor": [139, 69, 19],
+    "uniqueName": "Maîtrise de l'Acier Magique",
+    "uniqueText": "+20% de production pour les bâtiments et unités militaires. Les mines fournissent +1 de science.",
+    "startBias": ["Mountain", "Hills"],
+    "cities": ["Dwargon", "Mines d'Or", "Forge Royale"],
+    "units": ["Chevalier Nain"],
+    "buildings": ["Atelier d'Armurerie"]
+  },
+  {
+    "name": "Sainte République de Lubelius",
+    "adjective": "Lubélien",
+    "leaderName": "Luminous Valentine",
+    "color": [218, 165, 32],
+    "outerColor": [255, 215, 0],
+    "uniqueName": "Foi de Luminisme",
+    "uniqueText": "+50% de génération de Foi. Les unités religieuses sont 20% moins chères.",
+    "startBias": ["Plains"],
+    "cities": ["Lubelius", "Cathédrale de la Sainte Lumière", "Cité des Croyants"],
+    "units": ["Chevalier Sacré"],
+    "buildings": ["Temple de Luminous"]
+  }
+]

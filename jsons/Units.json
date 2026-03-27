@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Loup-Tempête",
+    "unitType": "Mounted",
+    "replaces": "Horseman",
+    "movement": 5,
+    "strength": 14,
+    "cost": 75,
+    "requiredResource": "Magicules",
+    "uniques": ["Ignorer le coût de mouvement du terrain", "+10% de force en forêt et jungle"],
+    "promotions": ["Éclaireur des Ombres"]
+  },
+  {
+    "name": "Kijin",
+    "unitType": "Melee",
+    "replaces": "Swordsman",
+    "movement": 2,
+    "strength": 18,
+    "cost": 85,
+    "requiredResource": "Acier Magique",
+    "uniques": ["Peut attaquer deux fois par tour", "Inflige +20% de dégâts contre les unités de mêlée"],
+    "promotions": ["Maîtrise de l'Épée"]
+  },
+  {
+    "name": "Chevalier Sacré",
+    "unitType": "Melee",
+    "replaces": "Longswordsman",
+    "movement": 2,
+    "strength": 25,
+    "cost": 120,
+    "uniques": ["Bonus de combat de 25% contre les monstres", "Génère de la Foi après chaque combat"],
+    "promotions": ["Lumière Purificatrice"]
+  },
+  {
+    "name": "Chevalier Nain",
+    "unitType": "Melee",
+    "replaces": "Spearman",
+    "movement": 2,
+    "strength": 12,
+    "cost": 56,
+    "uniques": ["+15% de force de défense", "Ignore les pénalités de combat en colline"]
+  },
+  {
+    "name": "Veldora",
+    "unitType": "Siege",
+    "movement": 3,
+    "strength": 100,
+    "cost": 500,
+    "requiredResource": "Cœur de Dragon",
+    "uniques": ["Unité unique", "Peut capturer des villes", "Volant", "Attaque à distance", "Rayon de destruction"]
+  }
+]

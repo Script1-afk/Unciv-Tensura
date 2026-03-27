@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Magicules",
+    "resourceType": "Strategic",
+    "uniques": ["+1 Science", "+1 Foi"],
+    "terrains": ["Forest", "Jungle", "Mountain"]
+  },
+  {
+    "name": "Acier Magique",
+    "resourceType": "Strategic",
+    "uniques": ["+2 Production"],
+    "terrains": ["Mountain", "Hills"]
+  },
+  {
+    "name": "Cœur de Dragon",
+    "resourceType": "Strategic",
+    "uniques": ["+5 Foi", "+5 Culture", "Généré par la merveille Grotte de Veldora"],
+    "terrains": []
+  },
+  {
+    "name": "Miel de l'Octagramme",
+    "resourceType": "Luxury",
+    "uniques": ["+4 Bonheur", "+2 Nourriture"],
+    "terrains": ["Forest"]
+  }
+]

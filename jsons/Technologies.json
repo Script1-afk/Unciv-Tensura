@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Magie Élémentaire",
+    "cost": 150,
+    "requiredTechs": ["Writing", "Philosophy"],
+    "uniques": ["Débloque les unités magiques", "+1 Science par bibliothèque"]
+  },
+  {
+    "name": "Alchimie de Jura",
+    "cost": 250,
+    "requiredTechs": ["Magie Élémentaire", "Alchemy"],
+    "uniques": ["Débloque l'Acier Magique", "+2 Production par forge"]
+  },
+  {
+    "name": "Sagesse du Grand Sage",
+    "cost": 500,
+    "requiredTechs": ["Education", "Alchimie de Jura"],
+    "uniques": ["+15% de Science globale", "Débloque l'évolution des unités"]
+  },
+  {
+    "name": "Invoquer un Seigneur Démon",
+    "cost": 1000,
+    "requiredTechs": ["Sagesse du Grand Sage", "Theology"],
+    "uniques": ["Débloque l'unité unique Seigneur Démon", "+5 Culture par merveille"]
+  }
+]
