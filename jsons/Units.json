@@ -1,44 +1,49 @@
 [
   {
     "name": "Loup-Tempête",
+    "uniqueTo": "Fédération de Jura Tempest",
     "unitType": "Mounted",
     "replaces": "Horseman",
     "movement": 5,
     "strength": 14,
     "cost": 75,
     "requiredResource": "Magicules",
-    "uniques": ["Ignore terrain cost", "[+10]% Strength <in [Forest] tiles>", "[+10]% Strength <in [Jungle] tiles>"],
+    "uniques": ["Ignore terrain cost", "[+10]% Strength <in [Forest]>", "[+10]% Strength <in [Jungle]>"],
     "promotions": ["Éclaireur des Ombres"]
   },
   {
     "name": "Kijin",
+    "uniqueTo": "Fédération de Jura Tempest",
     "unitType": "Melee",
     "replaces": "Swordsman",
     "movement": 2,
     "strength": 18,
     "cost": 85,
     "requiredResource": "Acier Magique",
-    "uniques": ["Can attack [2] times per turn", "[+20]% Strength <vs [Melee] units>"],
+    "uniques": ["Can attack again after killing a unit", "[+20]% Strength <vs [Melee] units>"],
     "promotions": ["Maîtrise de l'Épée"]
   },
   {
     "name": "Chevalier Sacré",
+    "uniqueTo": "Sainte République de Lubelius",
     "unitType": "Melee",
     "replaces": "Longswordsman",
     "movement": 2,
     "strength": 25,
     "cost": 120,
-    "uniques": ["[+25]% Strength <vs [Monster] units>", "Earn [50]% of killed Unit's [Strength] as [Faith]"],
+    "uniques": ["[+25]% Strength <vs [Monster]>", "Earn [50]% of killed [Unit]'s [Strength] as [Faith]"],
     "promotions": ["Lumière Purificatrice"]
   },
   {
     "name": "Chevalier Nain",
+    "uniqueTo": "Royaume des Nains de Dwargon",
     "unitType": "Melee",
     "replaces": "Spearman",
     "movement": 2,
     "strength": 12,
     "cost": 56,
-    "uniques": ["[+15]% Strength <when defending>", "Ignore terrain cost <in [Hills] tiles>"]
+    "uniques": ["[+15]% Strength <when defending>", "Ignores terrain cost <in [Hills]>"],
+    "promotions": []
   },
   {
     "name": "Veldora",
@@ -47,6 +52,6 @@
     "strength": 100,
     "cost": 500,
     "requiredResource": "Cœur de Dragon",
-    "uniques": ["Limited to [1] per Civilization", "Can capture cities", "All tiles cost 1 movement", "Ranged", "May attack after moving", "No defensive bonuses"]
+    "uniques": ["Limited to [1] per Civilization", "Can capture cities", "All tiles cost 1 movement"]
   }
 ]

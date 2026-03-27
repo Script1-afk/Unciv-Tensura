@@ -1,30 +1,34 @@
 [
   {
     "name": "Forge de Kurobe",
+    "uniqueTo": "Fédération de Jura Tempest",
     "replaces": "Forge",
     "cost": 120,
-    "uniques": ["[+15]% Production <for [Melee] units>", "[+1] Production from [Iron] tiles", "[+2] Production from [Acier Magique] tiles"],
+    "uniques": ["[+15]% Production <for [Melee] units>", "[+1] Production from [Iron]", "[+2] Production from [Acier Magique]"],
     "requiredResource": "Acier Magique"
   },
   {
     "name": "Temple de Luminous",
+    "uniqueTo": "Sainte République de Lubelius",
     "replaces": "Temple",
     "cost": 100,
-    "uniques": ["[+2] Faith", "[+1] Culture", "[+10]% Faith in this city"],
+    "uniques": ["[+2] Faith <in this city>", "[+1] Culture <in this city>", "[+10]% Faith <in this city>"],
     "requiredTech": "Philosophy"
   },
   {
     "name": "Atelier d'Armurerie",
+    "uniqueTo": "Royaume des Nains de Dwargon",
     "replaces": "Armory",
     "cost": 160,
-    "uniques": ["New [Land] units start with [+15] Experience", "[+2] Production"],
+    "uniques": ["[+15] Experience for new [Land] units", "[+2] Production <in this city>"],
     "requiredTech": "Steel"
   },
   {
     "name": "Grotte de Veldora",
+    "uniqueTo": "Fédération de Jura Tempest",
     "isWonder": true,
     "cost": 300,
-    "uniques": ["[+5] Faith", "[+5] Science", "Provides [1] [Cœur de Dragon]", "New [Land] units in this city start with the [Protection du Dragon] promotion"],
+    "uniques": ["[+5] Faith <in this city>", "[+5] Science <in this city>", "[+1] [Cœur de Dragon] resource", "New [Land] units in this city start with the [Protection du Dragon] promotion"],
     "requiredTech": "Theology"
   }
 ]
